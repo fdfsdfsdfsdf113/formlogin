@@ -28,9 +28,10 @@ body::before{
     width: 400px;
     padding: 30px;
     border: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(7.5px);
     border-radius:8px;
     display: grid;
+    transform: scale(0.78); /* Thu nhỏ xuống 80% kích thước ban đầu */
 }
 
 form{
